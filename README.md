@@ -1,22 +1,36 @@
 Proxy
 ================
 
+<img src="https://raw.githubusercontent.com/franbonafina/proxy/master/public/assets/proxy.png" alt="meli.proxy image" />
+
 A little application that run on nodeJs(+ express framework) that mainly intercept request to meli (api.mercadolibre.com) to play as a control tier . And respond transparently .
 
+It's a solution to: [(https://docs.google.com/document/d/1sicsLNJwF4LAWN2UR8e7ugklOS4FhyGWCNadPJ134yA/edit)]
 
-### Install  
-`npm start`
-### Use
-#### require:
+### Require:
 ```
 - npm
 - nodejs
 ```
-#### Calling it:
+### Install  
+`npm start`
+
+### Documentation:
 ```
-cURL 'localhost:5000'
+https://developers.mercadolibre.com/en_us/api-docs
 ```
-The request is get ​​to the following address:
+### Configurations :
 ```
-https://api.mercadolibre.com/users/?ids=77169310,1231233
+env localdir = localhost:5000 
+meliMethod = path + ? + parameters
 ```
+### Calling it:
+```
+cURL 'localdir/meliMethod' 
+```
+
+The request finally is get ​​to the following address:
+```
+https://api.mercadolibre.com 
+```
+
