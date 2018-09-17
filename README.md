@@ -1,7 +1,7 @@
 Proxy
 ================
 
-<img src="https://raw.githubusercontent.com/franbonafina/proxy/master/public/assets/proxy.png" alt="meli.proxy image" />
+<img src="https://raw.githubusercontent.com/franbonafina/proxy/master/assets/proxy.png" alt="meli.proxy image" />
 
 A little application that run on nodeJs(+ express framework) that mainly intercept request to meli (api.mercadolibre.com) to play as a control tier . And respond transparently .
 
