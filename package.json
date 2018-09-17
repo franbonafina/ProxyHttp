@@ -1,0 +1,23 @@
+{
+  "name": "test",
+  "version": "0.0.1",
+  "author": "FranBonafina <franbonafina1@gmail.com>",
+  "description": "A kind of proxy",
+  "main": "./index.js",
+  "keywords": [
+    "meli"
+  ],
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "needle": "^2.2.3",
+    "request": "^2.83.0"
+  },
+  "engine": {
+    "node": ">=0.6"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "license": "MIT"
+}
