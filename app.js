@@ -5,6 +5,7 @@
  */
 var config = require("./config.js").config;
 var proxy = require("./modules/proxy.js");
+var stadistics = require("./modules/stadistics.js");
 
 var express = require('express');
 var app = express();
@@ -27,7 +28,11 @@ app.set('view engine', 'ejs');
  * @value {string} [refresh_token]
  * @
  */
-app.use(stadistic(),..);
+app.use(function(req, res, next){
+	console.log(req);
+	new stadistics.Stadistics(req);
+	next();
+});
 app.use(express.static(__dirname + '/assets'));
 
 

@@ -1,4 +1,4 @@
-var meli = require('./lib/meli.js').Meli;
+var meli = require('../lib/meli.js');
 var sys = require("sys");
 var config = require("../config.js");
 var meliObject = new meli.Meli();
