@@ -29,10 +29,8 @@ https://developers.mercadolibre.com/en_us/api-docs
 ### Configurations :
 ```
 ./Config.js
-process.env - Node environment ```
+process.env - Node environment
+```
 
-The request finally is get ​​to the following address:
-```
-https://api.mercadolibre.com 
-```
+The request finally is get ​​to the following address: https://api.mercadolibre.com 
 
