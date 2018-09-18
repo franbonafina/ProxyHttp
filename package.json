@@ -10,14 +10,16 @@
   "dependencies": {
     "express": "^4.16.2",
     "express-session": "^1.15.6",
-    "needle": "^2.2.3",
-    "request": "^2.83.0"
+    "loadtest": "^3.0.4",
+    "log": "^1.4.0",
+    "needle": "^2.2.3"
   },
   "engine": {
     "node": ">=0.6"
   },
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "test" : "node ./test/mock.js"
   },
   "license": "MIT"
 }

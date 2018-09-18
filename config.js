@@ -4,6 +4,7 @@ var config = {
 	auth_url: 'https://auth.mercadolibre.com/authorization',
 	oauth_url: 'https://api.mercadolibre.com/oauth/token',
 	stadistics_url : 'localhost:3000',
+	app_url : process.env.PORT,
 	client_id :  process.env.App_ID,
 	secret_key : process.env.Secret_Key,
 	redirect_uri : process.env.Redirect_URI,

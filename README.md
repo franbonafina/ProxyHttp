@@ -12,22 +12,24 @@ It's a solution to: [(https://docs.google.com/document/d/1sicsLNJwF4LAWN2UR8e7ug
 - npm
 - nodejs
 ```
-### Install  
+### Run server . 
 `npm start`
 
+### Run test
+`npm test`
+
+### Play with it:
+```
+cURL 'localhost:5000/path?query' 
+```
 ### Documentation:
 ```
 https://developers.mercadolibre.com/en_us/api-docs
 ```
 ### Configurations :
 ```
-env localdir = localhost:5000 
-meliMethod = path + ? + parameters
-```
-### Calling it:
-```
-cURL 'localdir/meliMethod' 
-```
+./Config.js
+process.env - Node environment ```
 
 The request finally is get ​​to the following address:
 ```
