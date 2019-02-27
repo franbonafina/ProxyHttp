@@ -5,7 +5,6 @@ Proxy
 
 A little application that run on nodeJs(+ express framework) that mainly intercept request to meli (api.mercadolibre.com) to play as a control tier . And respond transparently .
 
-It's a solution to: [(https://docs.google.com/document/d/1sicsLNJwF4LAWN2UR8e7ugklOS4FhyGWCNadPJ134yA/edit)]
 
 ### Require:
 ```
